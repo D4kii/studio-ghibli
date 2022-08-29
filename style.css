@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    box-sizing: 100%;
+    box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
     body{
@@ -102,14 +102,42 @@
         font-size: 20px;
         font-style: italic;
     }
-    .topicos-container{
+    .site-cols-wrapper{
+        max-width:1200px;
+        margin:0 auto;
+        font-family: sans-serif;
+        font-size:18px;
+        color:#555;
+    }
+    /* Coluna da esquerda */
+    .site-left-col{
+        width:100%;
+        margin-right:-360px;
+        float:left;
+        font-size: 14px;
+        font-style: arial;
+    }
+    .espaçamento-coluna-direita{
+        padding:20px;
+        margin-right:360px;
+    }
+    /* Coluna da direita */
+    .site-right-col{
+        width:360px;
+        float:right;
+        font-size: 14px;
+        font-style: arial;
+    }
+    .sespaçamento-coluna-esquerda{
+        padding:20px;
+    }
+    /*.topicos-container{
         text-align: left;
         margin-left: 500px;
         margin-right: 80px;
-        font-size: 14px;
-        font-style: arial;
         
-    }
+        
+    }*/
     .ponyo{
         height: 100%;
         margin-top: 40px;
